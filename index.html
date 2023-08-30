@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Junior tu papa</title>
+    <link rel="icon" type="image/png" href="recursos/ESCUDO_JUNIOR.svg.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Aqui inicia el navbar -->
+      <nav
+        class="navbar is-white is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://app.juniorfc.co/">
+            <img src="recursos/ESCUDO_JUNIOR.svg.png" width="40" height="60" />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item"> Inicio </a>
+
+            <a class="navbar-item"> Multimedia </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> Más </a>
+
+              <div class="navbar-dropdown dropdown-item">
+                <a class="navbar-item"> Acerca </a>
+                <a class="navbar-item" href="datatable.html"> DataTable </a>
+                <a class="navbar-item"> Contactanos </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Reportar problema </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-info" href="CC/CrearCuenta.html">
+                  <strong>Crear cuenta</strong>
+                </a>
+                <a
+                  class="button is-danger"
+                  id="btn-IniciarSesion"
+                  href="login/login.html"
+                >
+                  Iniciar sesion
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br /><br /><br />
+      <!-- Aqui acaba el nav-->
+
+      <!-- comienzo del Carousel -->
+
+      <div id="carousel-demo" class="carousel">
+        <div class="item item-1">
+          <p class="caption has-text-centered has-text-white is-size-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <img
+            src="https://arc-anglerfish-arc2-prod-abccolor.s3.amazonaws.com/public/SRB5EOGTN5B7LGS7Y66LD6NK6I.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item item-2">
+          <img
+            src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,h_630,f_auto,q_auto,g_auto/shape/cover/sport/5939006319dbdd8770000001.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item item-3">
+          <img
+            src="https://files.alerta.rcnradio.com/alerta_tolima_prod/public/2020-01/junior_2020_1_0.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item item-4">
+          <img
+            src="https://zonacero.com/sites/default/files/2021/1/16/fotos/junior_-james_sanchez.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Fin del Carousel -->
+
+      <!--Comienzo de las cajas de mensaje-->
+      <div class="columns has-text-centered">
+        <div class="column">
+          <article class="message is-danger">
+            <div class="message-header">Junior FC</div>
+            <div class="message-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              officia omnis velit, aliquid necessitatibus distinctio asperiores
+              repellat animi assumenda eveniet enim pariatur cum quod in iure
+              impedit hic temporibus totam. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Exercitationem nulla deserunt
+              possimus, ipsa nemo nihil necessitatibus ad nesciunt fugit animi
+              doloribus voluptatibus repellat eligendi velit asperiores magni
+              porro dolorum quae!
+            </div>
+          </article>
+        </div>
+
+        <div class="column">
+          <article class="message is-danger">
+            <div class="message-header">Junior FC</div>
+            <div class="message-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              officia omnis velit, aliquid necessitatibus distinctio asperiores
+              repellat animi assumenda eveniet enim pariatur cum quod in iure
+              impedit hic temporibus totam. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Exercitationem nulla deserunt
+              possimus, ipsa nemo nihil necessitatibus ad nesciunt fugit animi
+              doloribus voluptatibus repellat eligendi velit asperiores magni
+              porro dolorum quae!
+            </div>
+          </article>
+        </div>
+      </div>
+      <!--Fin cajas de mensajes-->
+
+      <div id="noticias" class="has-background-grey-lighter">
+        <h1 id="a" class="has-text-danger-dark has-text-centered">
+          ÚLTIMAS NOTICIAS
+        </h1>
+      </div>
+
+      <!--comienzo de las tarjetas-->
+      <div class="container">
+        <div class="columns">
+          <div class="column is-3">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">LIGA BETPLAY DIMAYOR 2023</p>
+              </header>
+              <div class="card-content">
+                <div class="content-noticia">
+                  <img
+                    class="imagen"
+                    src="https://th.bing.com/th?id=OIF.LZWtYm4KB%2bmvl5WHwXpw%2bg&pid=ImgDet&rs=1"
+                  />
+                  <b class="text-new">¡Carlos Bacca llegó a 300 goles!</b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">LIGA BETPLAY DIMAYOR 2023</p>
+              </header>
+              <div class="card-content2">
+                <div class="content-noticia">
+                  <img
+                    id="estadistica"
+                    class="imagen"
+                    src="https://juniorfc.co/sites/default/files/styles/1280x700/public/noticia/ESTADISTICAS-JUNIOR-VS-AMERICA.jpg?itok=GX8kUWVT"
+                  />
+                  <b class="text-new">ESTADISTICA JUNIOR VS AMERICA</b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">LIGA BETPLAY DIMAYOR 2023</p>
+              </header>
+              <div class="card-content">
+                <div class="content-noticia">
+                  <div class="content-3">
+                    <img
+                      class="imagen3"
+                      src="https://juniorfc.co/sites/default/files/styles/1280x700/public/noticia/DSC_9046%20%281%29%20%282%29.JPG?itok=JvtBDqqt"
+                    />
+                    <b class="text-new">BOLETERÍA JUNIOR F.C. VS. AMÉRICA. </b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">LIGA BETPLAY DIMAYOR 2023</p>
+              </header>
+              <div class="card-content">
+                <div class="content-noticia">
+                  <img
+                    class="imagen"
+                    src="https://juniorfc.co/sites/default/files/styles/1280x700/public/noticia/DSC_8829.JPG?itok=jpSK0Hr3"
+                  />
+                  <b class="text-new">ITINERARIO DE JUNIOR F.C. A BOGOTÁ.</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin de las tarjetas-->
+    </div>
+    <br />
+
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script>
+      bulmaCarousel.attach("#carousel-demo", {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+      });
+    </script>
+  </body>
+</html>

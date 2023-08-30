@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(recursos/parallax1.jpg);
+  height: 100vh;
+}
+
+.custom-placeholder1::placeholder {
+  color: red;
+}
+
+.custom-placeholder2::placeholder {
+  color: #209cee;
+}
+
+.container {
+  background-color: white;
+  top: 25%;
+  width: 400px;
+  height: 400px !important;
+  border: 1px solid red;
+  border-radius: 5%;
+  position: center;
+}
+
+#input-usuario {
+  width: 380px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  left: 9px;
+}
+
+#input-contrasena {
+  width: 380px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  left: 9px;
+}
+
+#logo {
+  left: 33%;
+}
+
+#btn-iniciar {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#sin-cuenta{
+  margin-top: 20px;
+  text-align: center;
+}
