@@ -4,12 +4,20 @@ body {
     background-image: url(recursos/parallax1.jpg);
     height: 100vh;
   }
+
+  .ph-custom1::placeholder, .ph-custom3::placeholder {
+    color: red;
+  }
   
+  .ph-custom2::placeholder, .ph-custom4::placeholder {
+    color: #209cee;
+  }
+
   .container {
     background-color: white;
-    top: 25%;
+    top: 15%;
     width: 400px; 
-    height: 420px !important;
+    height: 460px !important;
     border: 1px solid red;
     border-radius: 5%;
     position: center;

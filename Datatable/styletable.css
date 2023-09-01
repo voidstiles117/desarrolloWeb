@@ -1,0 +1,11 @@
+table.dataTable thead, table.dataTable tfoot{
+    background-color: #ff3860;
+}
+
+table.dataTable th {
+    color: rgb(231, 224, 224);
+}
+
+table.dataTable img {
+    height: 30px;
+}

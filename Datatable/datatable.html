@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTable</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bulma.min.css">
+    <link rel="stylesheet" href="styletable.css">
+</head>
+<body>
+    
+    <table id="example" class="table is-striped is-hoverable" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Posición</th>
+                <th>Edad</th>
+                <th>fichaje</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Santiago Mele</td>
+                <td>Portero</td>
+                <td>25</td>
+                <td>01/07/2023</td>
+                <td>1,20 mill. €</td>
+            </tr>
+            <tr>
+                <td>Jefersson Martínez</td>
+                <td>Portero</td>
+                <td>29</td>
+                <td>27/01/2022</td>
+                <td>250 mil €</td>
+            </tr>
+            <tr>
+                <td>Sebastián Viera</td>
+                <td>Portero</td>
+                <td>40</td>
+                <td>04/01/2011</td>
+                <td>200 mil €</td>
+            </tr>
+            <tr>
+                <td>Jaime Acosta</td>
+                <td>Portero</td>
+                <td>21</td>
+                <td>01/01/2022</td>
+                <td>100 mil €</td>
+            </tr>
+            <tr>
+                <td>Dany Rosero</td>
+                <td>Defensa central</td>
+                <td>29</td>
+                <td>01/01/2020</td>
+                <td>1,00 mill. €</td>
+            </tr>
+            <tr>
+                <td>José Ortiz</td>
+                <td>Defensa central</td>
+                <td>24</td>
+                <td>12/07/2022</td>
+                <td>1,00 mill. €</td>
+            </tr>
+            <tr>
+                <td>Brayan Ceballos</td>
+                <td>Defensa central</td>
+                <td>22</td>
+                <td>11/07/2023</td>
+                <td>1,00 mill. €</td>
+            </tr>
+            <tr>
+                <td>Emanuel Olivera</td>
+                <td>Defensa central</td>
+                <td>33</td>
+                <td>01/07/2023</td>
+                <td>900 mil €</td>
+            </tr>
+            <tr>
+                <td>César Haydar</td>
+                <td>Defensa central</td>
+                <td>22</td>
+                <td>06/07/2022</td>
+                <td>800 mil €</td>
+            </tr>
+            <tr>
+                <td>Homer Martínez</td>
+                <td>Defensa central</td>
+                <td>25</td>
+                <td>04/01/2021</td>
+                <td>800 mil €</td>
+            </tr>
+            <tr>
+                <td>Iván Scarpeta</td>
+                <td>Defensa central</td>
+                <td>27</td>
+                <td>01/01/2023</td>
+                <td>500 mil €</td>
+            </tr>
+            <tr>
+                <td>Jermein Peña</td>
+                <td>Defensa central</td>
+                <td>23</td>
+                <td>17/07/2023</td>
+                <td>500 mil €</td>
+            </tr>
+            <tr>
+                <td>Federico Andueza</td>
+                <td>Defensa central</td>
+                <td>26</td>
+                <td>02/02/2023</td>
+                <td>400 mil €</td>
+            </tr>
+            <tr>
+                <td>Alfonso Simarra</td>
+                <td>Defensa central</td>
+                <td>22</td>
+                <td>23/07/2021</td>
+                <td>150 mil €</td>
+            </tr>
+            <tr>
+                <td>Howell Mena</td>
+                <td>Defensa central</td>
+                <td>22</td>
+                <td>04/01/2023</td>
+                <td>150 mil €</td>
+            </tr>
+            <tr>
+                <td>Gabriel Fuentes</td>
+                <td>Lateral izquierdo</td>
+                <td>26</td>
+                <td>24/04/2018</td>
+                <td>1,20 mill. €</td>
+            </tr>
+            <tr>
+                <td>Edwin Herrera</td>
+                <td>Lateral izquierdo</td>
+                <td>24</td>
+                <td>01/01/2023</td>
+                <td>500 mil €</td>
+            </tr>
+            <tr>
+                <td>Amaury Torralvo</td>
+                <td>Lateral izquierdo</td>
+                <td>29</td>
+                <td>01/01/2023</td>
+                <td>450 mil €</td>
+            </tr>
+            <tr>
+                <td>Germán Gutiérrez</td>
+                <td>Lateral izquierdo</td>
+                <td>33</td>
+                <td>31/03/2023</td>
+                <td>200 mil €</td>
+            </tr>
+            <tr>
+                <td>Walmer Pacheco</td>
+                <td>Lateral derecho</td>
+                <td>28</td>
+                <td>01/07/2021</td>
+                <td>1,00 mill. €</td>
+            </tr>
+            <tr>
+                <td>Nilson Castrillón</td>
+                <td>Lateral derecho</td>
+                <td>27</td>
+                <td>12/01/2022</td>
+                <td>450 mil €</td>
+            </tr>
+            <tr>
+                <td>Yeferson Moreno</td>
+                <td>Lateral derecho</td>
+                <td>19</td>
+                <td>10/07/2023</td>
+                <td>75 mil €</td>
+            </tr>
+            <tr>
+                <td>Didier Moreno</td>
+                <td>Pivote</td>
+                <td>31</td>
+                <td>01/01/2020</td>
+                <td>800 mil €</td>
+            </tr>
+            <tr>
+                <td>Jhon Vélez</td>
+                <td>Pivote</td>
+                <td>19</td>
+                <td>04/01/2023</td>
+                <td>300 mil €</td>
+            </tr>
+            <tr>
+                <td>Enrique Serje</td>
+                <td>Pivote</td>
+                <td>27</td>
+                <td>11/07/2016</td>
+                <td>250 mil €</td>
+            </tr>
+            <tr>
+                <td>Diego Mendoza</td>
+                <td>Pivote</td>
+                <td>22</td>
+                <td>10/07/2023</td>
+                <td>100 mil €</td>
+            </tr>
+            <tr>
+                <td>Carlos Sierra</td>
+                <td>Mediocentro</td>
+                <td>32</td>
+                <td>01/01/2023</td>
+                <td>750 mil €</td>
+            </tr>
+            <tr>
+                <td>Léider Berrío</td>
+                <td>Mediocentro</td>
+                <td>25</td>
+                <td>01/01/2023</td>
+                <td>750 mil €</td>
+            </tr>
+            <tr>
+                <td>Léider Berdugo</td>
+                <td>Mediocentro</td>
+                <td>21</td>
+                <td>-</td>
+                <td>500 mil €</td>
+            </tr>
+            <tr>
+                <td>Kevin Padilla</td>
+                <td>Mediocentro</td>
+                <td>22</td>
+                <td>10/07/2023</td>
+                <td>50 mil €</td>
+            </tr>
+            <tr>
+                <td>Juan Fernando Quintero</td>
+                <td>Mediocentro ofensivo</td>
+                <td>30</td>
+                <td>13/01/2023</td>
+                <td>3,20 mill. €</td>
+            </tr>
+            <tr>
+                <td>Jordan Barrera</td>
+                <td>Mediocentro ofensivo</td>
+                <td>17</td>
+                <td>01/07/2023</td>
+                <td>150 mil €</td>
+            </tr>
+            <tr>
+                <td>José Enamorado</td>
+                <td>Extremo izquierdo</td>
+                <td>24</td>
+                <td>03/08/2023</td>
+                <td>800 mil €</td>
+            </tr>
+            <tr>
+                <td>Luis González</td>
+                <td>Extremo izquierdo</td>
+                <td>32</td>
+                <td>02/07/2019</td>
+                <td>750 mil €</td>
+            </tr>
+            <tr>
+                <td>Andrey Estupiñán</td>
+                <td>Extremo izquierdo</td>
+                <td>28</td>
+                <td>10/02/2023</td>
+                <td>750 mil €</td>
+            </tr>
+            <tr>
+                <td>Omar Albornoz</td>
+                <td>Extremo izquierdo</td>
+                <td>27</td>
+                <td>05/01/2022</td>
+                <td>650 mil €</td>
+            </tr>
+            <tr>
+                <td>Fredy Hinestroza</td>
+                <td>Extremo izquierdo</td>
+                <td>33</td>
+                <td>01/01/2019</td>
+                <td>600 mil €</td>
+            </tr>
+            <tr>
+                <td>Pablo Rojas</td>
+                <td>Extremo izquierdo</td>
+                <td>31</td>
+                <td>01/07/2023</td>
+                <td>450 mil €</td>
+            </tr>
+            <tr>
+                <td>Vladimir Hernández</td>
+                <td>Extremo izquierdo</td>
+                <td>34</td>
+                <td>01/01/2023</td>
+                <td>450 mil €</td>
+            </tr>
+            <tr>
+                <td>Déiber Caicedo</td>
+                <td>Extremo derecho</td>
+                <td>23</td>
+                <td>03/08/2023</td>
+                <td>2,50 mill. €</td>
+            </tr>
+            <tr>
+                <td>Gonzalo Lencina</td>
+                <td>Delantero centro</td>
+                <td>25</td>
+                <td>01/07/2023</td>
+                <td>800 mil €</td>
+            </tr>
+            <tr>
+                <td>Brayan Muñiz</td>
+                <td>Delantero centro</td>
+                <td>22</td>
+                <td>01/01/2023</td>
+                <td>700 mil €</td>
+            </tr>
+            <tr>
+                <td>Carlos Bacca</td>
+                <td>Delantero centro</td>
+                <td>36</td>
+                <td>12/07/2022</td>
+                <td>600 mil €</td>
+            </tr>
+            <tr>
+                <td>Steven Rodríguez</td>
+                <td>Delantero centro</td>
+                <td>24</td>
+                <td>09/07/2023</td>
+                <td>425 mil €</td>
+            </tr>
+            <tr>
+                <td>Luis Sandoval</td>
+                <td>Delantero centro</td>
+                <td>24</td>
+                <td>18/07/2019</td>
+                <td>225 mil €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Nombre</th>
+                <th>Posición</th>
+                <th>Edad</th>
+                <th>fichaje</th>
+                <th>Salario</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bulma.min.js"></script>
+    <script>
+        $('#example').DataTable();
+    </script>
+</body>
+</html>
