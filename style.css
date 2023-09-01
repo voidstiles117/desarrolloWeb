@@ -2,6 +2,11 @@
   margin-right: 10px;
 }
 
+body{
+  background-attachment: fixed;
+  background-image: url(recursos/parallax1.jpg);
+}
+
 .container{
   overflow: hidden;
 }
@@ -9,11 +14,18 @@
 #noticias{
   padding: 10px;
   margin-bottom: 30px;
+  border: 1px solid red;
+  border-radius: 10%;
 }
 
 #a{
   font-weight: 600;
   font-size: large;
+}
+
+.card{
+  width: 318px;
+  height: 350px;
 }
 
 img{
@@ -41,8 +53,9 @@ img{
   }
 }
 
-.carousel{
-  margin: 5px;
+.carousel.is-fullwidth .carousel-item {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .content-noticia:hover{
