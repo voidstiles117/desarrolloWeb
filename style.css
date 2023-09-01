@@ -1,55 +1,56 @@
-#btn-IniciarSesion{
+#btn-IniciarSesion {
   margin-right: 10px;
 }
 
-body{
+body {
   background-attachment: fixed;
   background-image: url(recursos/parallax1.jpg);
 }
 
-.container{
+.container {
   overflow: hidden;
 }
 
-#noticias{
+#noticias {
   padding: 10px;
   margin-bottom: 30px;
   border: 1px solid red;
   border-radius: 10%;
 }
 
-#a{
+#a {
   font-weight: 600;
   font-size: large;
 }
 
-.card{
+.card {
   width: 318px;
   height: 350px;
 }
 
-img{
+img {
   width: 100%;
   height: 100%;
 }
 
-.item{
+.item {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.caption{
+.caption {
   position: absolute;
 }
 
-@media(min-width: 1000px){
-  .item{
-      height: 100vh;
+@media(min-width: 1000px) {
+  .item {
+    height: 100vh;
   }
-  img{
-      object-fit: cover;
+
+  img {
+    object-fit: cover;
   }
 }
 
@@ -58,34 +59,76 @@ img{
   margin-right: 0;
 }
 
-.content-noticia:hover{
+.content-noticia:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-#estadistica{
+#estadistica {
   padding: 15px;
 }
 
-.text-new{
+.text-new {
   display: flex;
   justify-content: center;
-  
+
 }
 
-.imagen{
+.imagen {
   width: 300px;
   height: 200px;
 }
 
-.card-content2{
+.card-content2 {
   padding: 23px;
 }
-.imagen3{
+
+.imagen3 {
   padding-bottom: 15px;
 }
 
-.content-3{
+.content-3 {
   padding: 15px;
   padding-bottom: 30px;
+}
+
+.footer {
+  padding: 80px;
+  box-sizing: border-box;
+  list-style: none;
+  color: white;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+  color: white;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 500 !important;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+  color:  white;
+  padding-left: 6px;
 }
