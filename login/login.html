@@ -14,19 +14,28 @@
     <figure class="image is-128x128" id="logo">
       <img src="recursos/ESCUDO_JUNIOR.svg.png">
     </figure>
-    <form action="">
+
+    <form action="" id="form">
+      <!-- Empiezan los inputs -->
       <input class="input custom-placeholder1 is-danger " type="text" placeholder="Ingrese usuario" id="input-usuario">
       <input class="input custom-placeholder2 is-info" type="password" placeholder="Contraseña" id="input-contrasena">
+      <!-- Terminan los inputs -->
+
+      <!-- Cominezan los botones y las validaciones -->
+      <div class="has-text-centered">
+        <p class="has-text-centered has-text-danger-light" id="warning"></p>
+        <button class="button is-info" id="btn-iniciar" href="" type="submit">Iniciar sesión</button>
+      </div>
+      <!-- Terminan los botones y validaciones -->
     </form>
 
-    <div class="has-text-centered">
-      <a class="button is-info" id="btn-iniciar" href="">Iniciar sesión</a>
-    </div>
-    
+
+
     <p id="sin-cuenta">¿No tienes una cuenta?<a href="../CC/CrearCuenta.html"> Click aquí</a></p>
-   
+
   </div>
 
+  <script src="login.js"></script>
 </body>
 
 </html>
