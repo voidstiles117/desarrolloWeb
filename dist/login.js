@@ -1,6 +1,6 @@
 "use strict";
-const parrafo = document.getElementById("warning");
-const form = document.querySelector("form");
+let parrafo = document.getElementById("warning");
+let form = document.querySelector("form");
 if (form) {
     form.addEventListener("submit", e => {
         e.preventDefault();

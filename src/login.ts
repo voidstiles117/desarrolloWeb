@@ -1,6 +1,6 @@
-const parrafo: HTMLElement | null = document.getElementById("warning")
+let parrafo: HTMLElement | null = document.getElementById("warning")
 
-const form: HTMLFormElement | null = document.querySelector("form")
+let form: HTMLFormElement | null = document.querySelector("form")
 
 if (form) {
   form.addEventListener("submit", e => {

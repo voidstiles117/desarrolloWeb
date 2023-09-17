@@ -12,20 +12,31 @@
 <body>
   <div class="container">
     <figure class="image is-128x128" id="logo">
-       <img src="recursos/ESCUDO_JUNIOR.svg.png" alt="escudo">
+      <img src="recursos/ESCUDO_JUNIOR.svg.png" alt="escudo">
     </figure>
-    <form action="" class="casillas">
 
-      <input class="casillas input ph-custom1 is-danger" type="text" placeholder="Nombre de usuario" >
-      <input class="casillas input ph-custom2 is-info" type="email" placeholder="Correo electrónico" required>
-      <input class="casillas input ph-custom3 is-danger" type="password" placeholder="Contraseña" required>
-      <input class="casillas input ph-custom4 is-info" type="password" placeholder="Confirmar contraseña" required>
+    <!-- Empieza el formulario -->
+    <form action="" class="form" id="form">
+      <!-- Empieza los inputs -->
+      <input class="casillas input ph-custom1 is-danger" type="text" placeholder="Nombre de usuario" id="r-user">
+      <input class="casillas input ph-custom2 is-info" type="email" placeholder="Correo electrónico" id="r-email">
+      <input class="casillas input ph-custom3 is-danger" type="password" placeholder="Contraseña" id="r-password">
+      <input class="casillas input ph-custom4 is-info" type="password" placeholder="Confirmar contraseña"
+        id="r-confirmPassword">
+      <!-- Terminan los inputs -->
+
+      <!-- Comienzan los botones y validaciones -->
+      <div class="hast-text-centered">
+        <p class="has-text-centered has-text-danger-light" id="alertas"></p>
+        <button class="button is-info" id="btn-iniciar" href="" type="submit">Crear cuenta</button>
+      </div>
+      <!-- terminan los botnes y las validaciones -->
     </form>
 
-    <a class="button is-info" id="btn-iniciar" href="">Crear cuenta</a>
 
   </div>
 
+  <script src="/dist/crearCuenta.js"></script>
 
 </body>
 
