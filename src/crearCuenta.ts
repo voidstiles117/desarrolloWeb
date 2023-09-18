@@ -27,14 +27,14 @@ if (formulario) {
   })
 }
 
-let validUser = (userElement: string): string => {
+function validUser(userElement: string): string {
   if (userElement === "") {
     return `<p class="has-text-centered has-text-danger" id="alertas">Usuario vacio</p>`
   }
   return "";
 };
 
-let validPassword = (passwordElement: string, confirmPasswordElement: string): string => {
+function validPassword(passwordElement: string, confirmPasswordElement: string): string {
   if (passwordElement != confirmPasswordElement) {
     return `<p class="has-text-centered has-text-danger" id="alertas">Contraseñas no coinciden</p>`
   }
@@ -44,7 +44,7 @@ let validPassword = (passwordElement: string, confirmPasswordElement: string): s
   return ""
 }
 
-let validEmail = (emailElement: string): boolean => {
+function validEmail(emailElement: string): boolean {
   const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
   if (!regex) {
   }
