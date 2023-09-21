@@ -12,10 +12,10 @@ if (formulario) {
 
     let alerta: string = ""
 
-    if (user && password && confirmPassword && email) {
+    if (user && password && confirmPassword) {
       alerta += validUser(user.value)
       alerta += validPassword(password.value, confirmPassword.value)
-      alerta += validEmail(email.value)
+      // alerta += validEmail(email.value)
     } else {
       alerta = ""
     }
@@ -32,7 +32,7 @@ function validUser(userElement: string): string {
     return `<p class="has-text-centered has-text-danger" id="alertas">Usuario vacio</p>`
   }
   return "";
-};
+}
 
 function validPassword(passwordElement: string, confirmPasswordElement: string): string {
   if (passwordElement != confirmPasswordElement) {
@@ -42,11 +42,4 @@ function validPassword(passwordElement: string, confirmPasswordElement: string):
     return `<p class="has-text-centered has-text-danger" id="alertas">Input de password vacios</p>`
   }
   return ""
-}
-
-function validEmail(emailElement: string): boolean {
-  const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-  if (!regex) {
-  }
-  return regex.test(emailElement);
 }

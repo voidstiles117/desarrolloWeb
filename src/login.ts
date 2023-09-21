@@ -24,7 +24,7 @@ if (form) {
   });
 }
 
-const validaUsuario = (usuarioElemento: string): string => {
+function validaUsuario(usuarioElemento: string): string {
   if (usuarioElemento === "") {
     return `<p class="has-text-centered has-text-danger" id="warning">Nombre esta vacio</p>`
   }
@@ -32,7 +32,7 @@ const validaUsuario = (usuarioElemento: string): string => {
   return ""
 }
 
-const validaContrasena = (contrasenaElemento: string): string => {
+function validaContrasena(contrasenaElemento: string): string {
   if (contrasenaElemento === "") {
     return `<p class="has-text-centered has-text-danger" id="warning">Contraseña vacia</p>`
   }
